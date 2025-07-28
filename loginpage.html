@@ -11,7 +11,10 @@
     </style>
 </head>
 <body>
-    <div class="mb-3">
+<div class="position-absolute top-50 start-50 translate-middle">
+    <div class="card">
+    <div class="card-body">
+         <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Nama</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
     </div>
@@ -19,26 +22,18 @@
         <label for="formGroupExampleInput2" class="form-label">NIM</label>
         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
     </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" aria-label="Text input with dropdown button">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
-        <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-          <li><hr class="dropdown-divider"></li>
-        </ul>
-    </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" aria-label="Text input with dropdown button">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
-        <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-          <li><hr class="dropdown-divider"></li>
-        </ul>
-    </div>
-
+    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <option selected>Jurusan</option>
+        <option value="1">Teknik Informatika</option>
+        <option value="2">Management Informatika</option>
+        <option value="3">Sistem Informatika</option>
+    </select>
+    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <option selected>Angkatan</option>
+            <option value="1">2023/2024</option>
+            <option value="2">2024/2025</option>
+            <option value="3">2025/2026</option>
+    </select>
+</div>    
 </body>
 </html>
